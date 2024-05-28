@@ -1148,6 +1148,26 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:top-auto {
+    top: auto;
+  }
+
+  .md\:top-1\/4 {
+    top: 25%;
+  }
+
+  .md\:top-1 {
+    top: 0.25rem;
+  }
+
+  .md\:top-14 {
+    top: 3.5rem;
+  }
+
   .md\:order-1 {
     order: 1;
   }
@@ -1195,6 +1215,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:touch-auto {
+    touch-action: auto;
   }
 
   .md\:flex-row {
